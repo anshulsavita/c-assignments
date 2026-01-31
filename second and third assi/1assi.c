@@ -2,19 +2,19 @@
 void main(){
 
 // ******Question 1*******
-    int i=1,s=0,o=0;
-    xyz:
-    if(i%2==0){
-        s=s+i;
-    }
-    if(i%2!=0){
-        o=o+i;
-    }
-    i=i+1;
-    if(i<=10){
-        goto xyz;
-    }
-    printf("Sum of even numbers: %d\nSum of odd numbers: %d",s,o);
+    // int i=1,s=0,o=0;
+    // xyz:
+    // if(i%2==0){
+    //     s=s+i;
+    // }
+    // if(i%2!=0){
+    //     o=o+i;
+    // }
+    // i=i+1;
+    // if(i<=10){
+    //     goto xyz;
+    // }
+    // printf("Sum of even numbers: %d\nSum of odd numbers: %d",s,o);
 
     //******Question 2***** */
     // int i=1,s=0,o=0;
@@ -116,11 +116,18 @@ void main(){
     // printf("-------------------------------------------\n");
 
     //*******Question 8(i)**** */
-    // int i=1;
+    // int x,n,i=1,m;
+    // printf("Enter the value of X:");
+    // scanf("%d",&x);
+
+    // printf("Enter the value of N:");
+    // scanf("%d",&n);
+
     // abc:
-    // printf("X*%d+",i);
+    // m=x*i;
     // i=i+2;
-    // if(i<=50){
+    // printf("%d+",m);
+    // if(i<=n){
     //     goto abc;
     // }
 
@@ -156,6 +163,20 @@ void main(){
     
     // printf("first value is %d\nSecond value is %d",a,b);
 
+    // *****or*****
+
+    // int a,b;
+    // printf("Enter first number: ");
+    // scanf("%d",&a);
+    // printf("Enter second number: ");
+    // scanf("%d",&b);
+
+    // a=a+b;
+    // b=a-b;
+    // a=a-b;
+    
+    // printf("first value is %d\nSecond value is %d",a,b);
+
     //******Question 10 */
     // float c,f;
     // printf(" Enter the temperature in degree celsius: ");
@@ -175,13 +196,13 @@ void main(){
     // printf("Temperature in degree celsius: %.2f",c);
 
     //******Question 11****
-    // float m,inc,f,y;
-    // printf("Enter the distance in miles: ");
-    // scanf("%f",&m);
+    float m,inc,f,y;
+    printf("Enter the distance in miles: ");
+    scanf("%f",&m);
 
-    // inc=m*63360;
-    // f=inc/12;
-    // y=f/3;
+    inc=m*63360;
+    f=inc/12;
+    y=f/3;
 
-    // printf("Inches: %.2f\nFeet: %.2f\nYard: %.2f",inc,f,y);
+    printf("Inches: %.2f\nFeet: %.2f\nYard: %.2f",inc,f,y);
 }
