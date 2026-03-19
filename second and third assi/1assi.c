@@ -196,13 +196,13 @@ void main(){
     // printf("Temperature in degree celsius: %.2f",c);
 
     //******Question 11****
-    float m,inc,f,y;
-    printf("Enter the distance in miles: ");
-    scanf("%f",&m);
+    // float m,inc,f,y;
+    // printf("Enter the distance in miles: ");
+    // scanf("%f",&m);
 
-    inc=m*63360;
-    f=inc/12;
-    y=f/3;
+    // inc=m*63360;
+    // f=inc/12;
+    // y=f/3;
 
-    printf("Inches: %.2f\nFeet: %.2f\nYard: %.2f",inc,f,y);
+    // printf("Inches: %.2f\nFeet: %.2f\nYard: %.2f",inc,f,y);
 }

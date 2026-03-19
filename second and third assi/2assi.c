@@ -17,16 +17,16 @@ void main(){
     // }
 
     //*******Question 2*******
-    // int a;
-    // printf("Enter a number: ");
-    // scanf("%d",&a);
+    int a;
+    printf("Enter a number: ");
+    scanf("%d",&a);
 
-    // if(a%2==0){
-    //     printf("Number = %d, it is a Even number",a);
-    // }
-    // else{
-    //     printf("Number = %d, it is a Odd number",a);
-    // }
+    if(a%2==0){
+        printf("Number = %d, it is a Even number",a);
+    }
+    else{
+        printf("Number = %d, it is a Odd number",a);
+    }
 
     //*******Question 3*******
     // int i=100,a=0,s=0;
@@ -103,20 +103,20 @@ void main(){
     // }
 
     // *******Question 6******
-    float i,a,r,p;
-    printf("Enter energy consumption: ");
-    scanf("%f",&i);
+    // float i,a,r,p;
+    // printf("Enter energy consumption: ");
+    // scanf("%f",&i);
 
-    if(i>=0 && i<=200){
-        p=i*0.50;
-        printf("%.2f",p);
-    }
-    else if(i>=201 && i<=400){
-        p=100+(i*0.65);
-        printf("%.2f",p);
-    }
-    else if(i>=401 && i<=600){
-        p=230+(i*0.80);
-        printf("%.2f",p);
-    }
+    // if(i>=0 && i<=200){
+    //     p=i*0.50;
+    //     printf("%.2f",p);
+    // }
+    // else if(i>=201 && i<=400){
+    //     p=100+(i*0.65);
+    //     printf("%.2f",p);
+    // }
+    // else if(i>=401 && i<=600){
+    //     p=230+(i*0.80);
+    //     printf("%.2f",p);
+    // }
 }
