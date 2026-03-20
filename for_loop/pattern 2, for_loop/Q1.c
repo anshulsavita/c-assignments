@@ -29,17 +29,17 @@ void main(){
     // }
 
     // ****Question 3***
-    // int j,i,sps=4;
-    // for(i=1;i<=5;i++){
-    //     for(j=1;j<=sps;j++){
-    //         printf(" ");
-    //     }
-    //     for(j=1;j<=5;j++){
-    //         printf("*");
-    //     }
-    //     sps=sps-1;
-    //     printf("\n");
-    // }
+    int j,i,sps=4;
+    for(i=1;i<=5;i++){
+        for(j=1;j<=sps;j++){
+            printf(" ");
+        }
+        for(j=1;j<=5;j++){
+            printf("*");
+        }
+        sps=sps-1;
+        printf("\n");
+    }
 
     // ****Question 4***
     // int j,i,sps=4;
@@ -140,25 +140,25 @@ void main(){
     // }
 
     // ****Question 10****
-    int i,j,sps=5;
-    for(i=1;i<=5;i++){
-        for(j=1;j<=sps;j++){
-            printf(" ");
-        }
-        for(j=1;j<=i;j++){
-            if(i==1 || i==2 || i==5){
-                printf("*");
-            }
-            else{
-                if(j==1 || j==i){
-                    printf("*");
-                }
-                else{
-                    printf(" ");
-                }
-            }
-        }
-        printf("\n");
-        sps=sps-1;
-    } 
+    // int i,j,sps=5;
+    // for(i=1;i<=5;i++){
+    //     for(j=1;j<=sps;j++){
+    //         printf(" ");
+    //     }
+    //     for(j=1;j<=i;j++){
+    //         if(i==1 || i==2 || i==5){
+    //             printf("*");
+    //         }
+    //         else{
+    //             if(j==1 || j==i){
+    //                 printf("*");
+    //             }
+    //             else{
+    //                 printf(" ");
+    //             }
+    //         }
+    //     }
+    //     printf("\n");
+    //     sps=sps-1;
+    // } 
 }
