@@ -213,8 +213,52 @@ void main(){
     // }
 
     // ****Question 12****-->Hollow inverted right triangle
+    // int i=5,j;
+    // while(i>=1){
+    //     j=1;
+    //     while(j<=i){
+    //         if(i==4 || i==3){
+    //             if(j==1 || j==i){
+    //                 printf("*");
+    //             }
+    //             else{
+    //                 printf(" ");
+    //             }
+    //         }
+    //         else{
+    //             printf("*");
+    //         }
+    //         j++;
+    //     }
+    //     printf("\n");
+    //     i--;
+    // }
+
+    // ****Question 13***--> inverted mirrored right triangle.
+    // int i=5,j;
+    // while(i>=1){
+    //     j=5;
+    //     while(j>=i){
+    //         printf(" ");
+    //         j--;
+    //     }
+    //     j=1;
+    //     while(j<=i){
+    //         printf("*");
+    //         j++;
+    //     }
+    //     printf("\n");
+    //     i--;
+    // }
+
+    // ****Question 14***-->Hollow inverted mirrored right triangle.
     int i=5,j;
     while(i>=1){
+        j=5;
+        while(j>=i){
+            printf(" ");
+            j--;
+        }
         j=1;
         while(j<=i){
             if(i==4 || i==3){
