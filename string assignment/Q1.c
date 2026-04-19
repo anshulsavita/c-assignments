@@ -159,6 +159,140 @@ void main(){
     //     printf("not palindrom...");
     // }
 
-    // ****Question 13****
+    // ****Question 13****incomplete...
     // -->write a c program to reverse order of words in a given string.
+    // char x[30];
+    // int i,sps,t;
+    // printf("Enter string: ");
+    // gets(x);
+    // // l=strlen(x);
+    // // printf("%d",l);
+    // for(i=0;x[i];i++){
+    //     if(x[i]==' '){
+    //         sps++;
+    //         t=i;
+    //     }
+    // }
+    // for(i=t;x[i];i++){
+    //     printf("%c",x[i]);
+    // }
+
+    // ****Question 14****
+    // -->Write a c program to find first occurrence of a character in a given string
+    // char x[30],n;
+    // int i;
+    // printf("Enter string: ");
+    // gets(x);
+    // printf("Enter character you want to find: ");
+    // scanf("%c",&n);
+    // for(i=0;x[i];i++){
+    //     if(x[i]==n){
+    //         printf("%d",i);
+    //         break;
+    //     }
+    // }
+
+    // ****Question 15****
+    // -->Write a c program to find last occurrences of a character in a given string.
+    // char x[30],n;
+    // int i,l;
+    // printf("Enter string: ");
+    // gets(x);
+    // printf("Enter character you want to find: ");
+    // scanf("%c",&n);
+    // for(i=0;x[i];i++){
+    //     if(x[i]==n){
+    //         l=i;
+    //     }
+    // }
+    // printf("%d",l);
+
+    // ****Question 16****
+    // --> Write a c program to search all occurences of a character in given string.
+    // char x[30],n;
+    // int i;
+    // printf("Enter string: ");
+    // gets(x);
+    // printf("Enter character you want to find: ");
+    // scanf("%c",&n);
+    // for(i=0;x[i];i++){
+    //     if(x[i]==n){
+    //         printf("%d,",i);
+    //     }
+    // }
+
+    // ****Question 17****
+    // --> Write a c program to count occurances of a character in given string.
+    // char x[30],n;
+    // int i,c=0;
+    // printf("Enter string: ");
+    // gets(x);
+    // printf("Enter character you want to find: ");
+    // scanf("%c",&n);
+    // for(i=0;x[i];i++){
+    //     if(x[i]==n){
+    //         c++;
+    //     }
+    // } 
+    // printf("Total count: %d",c);
+
+    // ****Question 18****
+    // --> Write a c program to find highest frequency character in given string.
+    // char x[30],t;
+    // int i,j,c,f=0;
+    // printf("Enter string: ");
+    // gets(x);
+    // for(i=0;x[i];i++){
+    //     t=x[i];
+    //     c=0;
+    //     for(j=0;x[j];j++){
+    //         if(x[j]==t){
+    //             c++;
+    //         }
+    //     }
+    //     if(c>=f){
+    //         f=c;
+    //         c=t;
+    //     }
+    // }
+    // printf("highest frequency %c: %d",c,f);
+
+    // ****Question 19****incomplete
+    // --> Write a c program to find lowest frequency character in a string.
+    // char x[30],t;
+    // int i,j,c,f=1;
+    // printf("Enter string: ");
+    // gets(x);
+    // for(i=0;x[i];i++){
+    //     t=x[i];
+    //     c=0;
+    //     for(j=0;x[j];j++){
+    //         if(x[j]==t){
+    //             c++;
+    //         }
+    //     }
+    //     if(c<=f){
+    //         f=c;
+    //         c=t;
+    //     }
+    // }
+    // printf("lowest frequency %c: %d",c,f);
+
+    // ****Question 20****
+    // --> Write a c program to count frequency of each character in a string.
+    char x[30],t;
+    int i,j,f=0;
+    printf("Enter string: ");
+    gets(x);
+    for(i=0;x[i];i++){
+        t=x[i];
+        f=0;
+        for(j=0;x[j];j++){
+            if(x[j]==t){
+                f++;
+            }
+        }
+        printf("frequency of %c: %d",t,f);
+        printf("\n");
+    }
 }   
