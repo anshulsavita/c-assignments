@@ -259,40 +259,40 @@ void main(){
 
     // ****Question 19****incomplete
     // --> Write a c program to find lowest frequency character in a string.
-    // char x[30],t;
-    // int i,j,c,f=1;
-    // printf("Enter string: ");
-    // gets(x);
-    // for(i=0;x[i];i++){
-    //     t=x[i];
-    //     c=0;
-    //     for(j=0;x[j];j++){
-    //         if(x[j]==t){
-    //             c++;
-    //         }
-    //     }
-    //     if(c<=f){
-    //         f=c;
-    //         c=t;
-    //     }
-    // }
-    // printf("lowest frequency %c: %d",c,f);
-
-    // ****Question 20****
-    // --> Write a c program to count frequency of each character in a string.
     char x[30],t;
-    int i,j,f=0;
+    int i,j,c,f=1;
     printf("Enter string: ");
     gets(x);
     for(i=0;x[i];i++){
         t=x[i];
-        f=0;
+        c=0;
         for(j=0;x[j];j++){
             if(x[j]==t){
-                f++;
+                c++;
             }
         }
-        printf("frequency of %c: %d",t,f);
-        printf("\n");
+        if(c<=f){
+            f=c;
+            c=t;
+        }
     }
+    printf("lowest frequency %c: %d",c,f);
+
+    // ****Question 20****
+    // --> Write a c program to count frequency of each character in a string.
+    // char x[30],t;
+    // int i,j,f=0;
+    // printf("Enter string: ");
+    // gets(x);
+    // for(i=0;x[i];i++){
+    //     t=x[i];
+    //     f=0;
+    //     for(j=0;x[j];j++){
+    //         if(x[j]==t){
+    //             f++;
+    //         }
+    //     }
+    //     printf("frequency of %c: %d",t,f);
+    //     printf("\n");
+    // }
 }   
